@@ -1,6 +1,8 @@
 import rsa
 import unittest
 
+VERSION = (0, 1, 0)
+
 def rsa_sign(message, privkey_file):
     """
     Sign a string message using the key contained in the privkey_file.
